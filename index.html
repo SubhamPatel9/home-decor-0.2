@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nestora Living - Premium home décor, furniture, and interior design solutions crafted for modern homes in Jharsuguda, Odisha.">
+    <meta name="keywords" content="Interior Design Jharsuguda, Home Decor Odisha, Nestora Living, Modular Kitchen, Luxury Furniture">
+    <meta name="author" content="Nestora Living">
+    <title>Nestora Living | Transforming Houses Into Beautiful Homes</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-couch"></i> Nestora <span>Living</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <button class="close-nav" id="closeNav" aria-label="Close menu"><i class="fas fa-times"></i></button>
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="icon-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                <a href="tel:+919876543210" class="icon-btn call-btn" aria-label="Call us"><i class="fas fa-phone"></i></a>
+                <a href="#contact" class="btn btn-primary consultation-btn">Get Consultation</a>
+                <button class="hamburger" id="hamburger" aria-label="Open menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');"></div>
+        <div class="hero-overlay"></div>
+        
+        <div class="floating-decor decor-1"></div>
+        <div class="floating-decor decor-2"></div>
+        <div class="floating-decor decor-3"></div>
+
+        <div class="container hero-content">
+            <div class="glass-card hero-card reveal">
+                <h1 class="hero-title">Design Your <span>Dream Space</span></h1>
+                <p class="hero-subtitle">Premium home décor, furniture, and interior solutions crafted for modern homes in Jharsuguda.</p>
+                <div class="hero-btns">
+                    <a href="#products" class="btn btn-primary">Explore Collection</a>
+                    <a href="#contact" class="btn btn-outline">Book Free Consultation</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3 data-target="500">0</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 data-target="1200">0</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 data-target="10">0</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse"><div class="wheel"></div></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="section categories-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">Curated Collections</span>
+                <h2>Featured Categories</h2>
+            </div>
+            <div class="category-grid">
+                <div class="category-card reveal" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                    <div class="category-overlay">
+                        <h3>Living Room</h3>
+                        <p>Explore Collection</p>
+                    </div>
+                </div>
+                <div class="category-card reveal" style="background-image: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                    <div class="category-overlay">
+                        <h3>Bedroom</h3>
+                        <p>Explore Collection</p>
+                    </div>
+                </div>
+                <div class="category-card reveal" style="background-image: url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                    <div class="category-overlay">
+                        <h3>Kitchen Decor</h3>
+                        <p>Explore Collection</p>
+                    </div>
+                </div>
+                <div class="category-card reveal" style="background-image: url('https://images.unsplash.com/photo-1513519245088-0e12902e3556?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                    <div class="category-overlay">
+                        <h3>Wall Art</h3>
+                        <p>Explore Collection</p>
+                    </div>
+                </div>
+                <div class="category-card reveal" style="background-image: url('https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                    <div class="category-overlay">
+                        <h3>Lighting</h3>
+                        <p>Explore Collection</p>
+                    </div>
+                </div>
+                <div class="category-card reveal" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                    <div class="category-overlay">
+                        <h3>Outdoor Decor</h3>
+                        <p>Explore Collection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container about-grid">
+            <div class="about-images reveal">
+                <img src="https://images.unsplash.com/photo-1531835551805-16d864c8d311?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nestora Living Interior Design" class="about-img-1">
+                <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern Furniture Design" class="about-img-2">
+                <div class="experience-badge glass-card">
+                    <h3>10+</h3>
+                    <p>Years of Excellence</p>
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <span class="sub-heading">About Nestora</span>
+                <h2>Crafting Timeless Spaces with Passion & Precision</h2>
+                <p>Founded in Jharsuguda, Odisha, Nestora Living was born from a desire to make luxury interior design accessible. We blend modern aesthetics with local craftsmanship to create spaces that tell your unique story.</p>
+                <div class="about-features">
+                    <div class="about-feature-item">
+                        <i class="fas fa-bullseye"></i>
+                        <div>
+                            <h4>Our Vision</h4>
+                            <p>To be the most trusted interior design brand in Eastern India.</p>
+                        </div>
+                    </div>
+                    <div class="about-feature-item">
+                        <i class="fas fa-rocket"></i>
+                        <div>
+                            <h4>Our Mission</h4>
+                            <p>Delivering premium, functional, and beautiful spaces on time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-counters">
+                    <div class="counter-box">
+                        <h3 data-target="1200">0</h3>
+                        <p>Customers</p>
+                    </div>
+                    <div class="counter-box">
+                        <h3 data-target="500">0</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="counter-box">
+                        <h3 data-target="50">0</h3>
+                        <p>Designers</p>
+                    </div>
+                    <div class="counter-box">
+                        <h3 data-target="10">0</h3>
+                        <p>Years</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services-section" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">What We Offer</span>
+                <h2>Our Premium Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class="fas fa-drafting-compass"></i></div>
+                    <h3>Interior Design</h3>
+                    <p>Comprehensive design solutions tailored to your lifestyle and aesthetic preferences.</p>
+                </div>
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class="fas fa-chair"></i></div>
+                    <h3>Custom Furniture</h3>
+                    <p>Bespoke furniture pieces crafted with premium materials for ultimate comfort.</p>
+                </div>
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class="fas fa-blender"></i></div>
+                    <h3>Modular Kitchen</h3>
+                    <p>Smart, sleek, and functional kitchens designed for modern culinary experiences.</p>
+                </div>
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class="fas fa-magic"></i></div>
+                    <h3>Home Styling</h3>
+                    <p>Curated décor, art, and accessories to elevate the look of any room.</p>
+                </div>
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class="fas fa-hammer"></i></div>
+                    <h3>Renovation</h3>
+                    <p>Complete home makeovers with minimal disruption and maximum impact.</p>
+                </div>
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class="fas fa-ruler-combined"></i></div>
+                    <h3>Space Planning</h3>
+                    <p>Optimized layouts to maximize space, light, and flow in your home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section products-section" id="products">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">Shop Our Collection</span>
+                <h2>Featured Products</h2>
+            </div>
+            
+            <div class="product-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="furniture">Furniture</button>
+                <button class="filter-btn" data-filter="lighting">Lighting</button>
+                <button class="filter-btn" data-filter="decor">Decor</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card reveal" data-category="furniture">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                        <div class="product-actions">
+                            <button class="action-btn" aria-label="Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Furniture</span>
+                        <h3>Designer Sofa</h3>
+                        <p class="price">₹45,000</p>
+                    </div>
+                </div>
+                <div class="product-card reveal" data-category="furniture">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1577140917170-285929fb55b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                        <div class="product-actions">
+                            <button class="action-btn" aria-label="Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Furniture</span>
+                        <h3>Wooden Dining Table</h3>
+                        <p class="price">₹32,000</p>
+                    </div>
+                </div>
+                <div class="product-card reveal" data-category="lighting">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1507473885765-e6ed057f782c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                        <div class="product-actions">
+                            <button class="action-btn" aria-label="Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Lighting</span>
+                        <h3>Modern Lamp</h3>
+                        <p class="price">₹4,500</p>
+                    </div>
+                </div>
+                <div class="product-card reveal" data-category="decor">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1513519245088-0e12902e3556?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                        <div class="product-actions">
+                            <button class="action-btn" aria-label="Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Decor</span>
+                        <h3>Wall Decor Art</h3>
+                        <p class="price">₹8,000</p>
+                    </div>
+                </div>
+                <div class="product-card reveal" data-category="furniture">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                        <div class="product-actions">
+                            <button class="action-btn" aria-label="Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Furniture</span>
+                        <h3>Accent Chair</h3>
+                        <p class="price">₹18,000</p>
+                    </div>
+                </div>
+                <div class="product-card reveal" data-category="decor">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1578500494198-246f612d3b3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                        <div class="product-actions">
+                            <button class="action-btn" aria-label="Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Decor</span>
+                        <h3>Decorative Vase</h3>
+                        <p class="price">₹2,500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Showcase -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">Our Portfolio</span>
+                <h2>Recent Projects in Jharsuguda</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal large" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');">
+                    <div class="project-overlay">
+                        <span>Residential</span>
+                        <h3>Luxury Villa Interior</h3>
+                    </div>
+                </div>
+                <div class="project-card reveal" style="background-image: url('https://images.unsplash.com/photo-1630699144277-26b1b438aa5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                    <div class="project-overlay">
+                        <span>Apartment</span>
+                        <h3>Modern Apartment Setup</h3>
+                    </div>
+                </div>
+                <div class="project-card reveal" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                    <div class="project-overlay">
+                        <span>Commercial</span>
+                        <h3>Premium Office Lounge</h3>
+                    </div>
+                </div>
+                <div class="project-card reveal large" style="background-image: url('https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');">
+                    <div class="project-overlay">
+                        <span>Hospitality</span>
+                        <h3>Café Decoration</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section why-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">The Nestora Advantage</span>
+                <h2>Why Choose Us?</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card glass-card reveal">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Expert Designers</h3>
+                    <p>A team of 50+ seasoned professionals with an eye for detail.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <i class="fas fa-gem"></i>
+                    <h3>High Quality Materials</h3>
+                    <p>We source only the finest materials for lasting durability.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <i class="fas fa-tags"></i>
+                    <h3>Affordable Luxury</h3>
+                    <p>Premium designs tailored to fit your budget perfectly.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <i class="fas fa-clock"></i>
+                    <h3>On-Time Delivery</h3>
+                    <p>We respect your time and guarantee project milestones.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Personalized Designs</h3>
+                    <p>Every space is unique to you, reflecting your personality.</p>
+                </div>
+                <div class="why-card glass-card reveal">
+                    <i class="fas fa-headset"></i>
+                    <h3>Local Support</h3>
+                    <p>Dedicated after-sales support right here in Jharsuguda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">Visual Inspiration</span>
+                <h2>Our Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1531835551805-16d864c8d311?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1558211583-d26f610c1eb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1615875605825-5eb9bb5d52ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image: url('https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Slider -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">Client Love</span>
+                <h2>What Our Customers Say</h2>
+            </div>
+            
+            <div class="testimonial-slider reveal">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card glass-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Nestora Living completely transformed our 3BHK apartment. The team understood our vision perfectly and delivered beyond expectations. Truly the best in Jharsuguda!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Amit Patel">
+                            <div>
+                                <h4>Amit Patel</h4>
+                                <span>Jharsuguda</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"The modular kitchen they designed is both beautiful and highly functional. The quality of materials used is top-notch. Highly recommend their services!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya Mishra">
+                            <div>
+                                <h4>Priya Mishra</h4>
+                                <span>Odisha</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"Excellent service and attention to detail. The custom furniture pieces are absolute stunners. Thank you Nestora for making my house a dream home."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Rakesh Sahu">
+                            <div>
+                                <h4>Rakesh Sahu</h4>
+                                <span>Jharsuguda</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"From concept to execution, the process was seamless. The lighting selection completely changed the ambiance of our living room."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sneha Das">
+                            <div>
+                                <h4>Sneha Das</h4>
+                                <span>Odisha</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button id="prevTestimonial" class="slider-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button id="nextTestimonial" class="slider-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Timeline -->
+    <section class="section process-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">How We Work</span>
+                <h2>Our 4-Step Process</h2>
+            </div>
+            <div class="process-timeline">
+                <div class="process-item reveal">
+                    <div class="process-number">01</div>
+                    <div class="process-content glass-card">
+                        <h3>Consultation</h3>
+                        <p>We discuss your needs, preferences, and budget to understand your vision.</p>
+                    </div>
+                </div>
+                <div class="process-item reveal">
+                    <div class="process-number">02</div>
+                    <div class="process-content glass-card">
+                        <h3>Design Planning</h3>
+                        <p>Creating detailed 3D mockups and material boards for your approval.</p>
+                    </div>
+                </div>
+                <div class="process-item reveal">
+                    <div class="process-number">03</div>
+                    <div class="process-content glass-card">
+                        <h3>Execution</h3>
+                        <p>Our craftsmen bring the design to life with precision and quality.</p>
+                    </div>
+                </div>
+                <div class="process-item reveal">
+                    <div class="process-number">04</div>
+                    <div class="process-content glass-card">
+                        <h3>Final Styling</h3>
+                        <p>Adding décor, lighting, and finishing touches for the perfect look.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section blog-section" id="blog">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">Insights & Ideas</span>
+                <h2>From Our Blog</h2>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card reveal">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">Jan 15, 2025</span>
+                        <h3>Home Decor Trends 2025</h3>
+                        <p>Discover the top interior design trends that will dominate this year.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card reveal">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">Jan 10, 2025</span>
+                        <h3>Small Space Design Ideas</h3>
+                        <p>Maximize your small apartment with these clever design hacks.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card reveal">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">Jan 05, 2025</span>
+                        <h3>Modern Indian Living Rooms</h3>
+                        <p>Blending traditional Indian aesthetics with modern functionality.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card reveal">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">Dec 28, 2024</span>
+                        <h3>Luxury Bedroom Styling</h3>
+                        <p>Create a sanctuary of peace with these premium bedroom tips.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card reveal">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">Dec 20, 2024</span>
+                        <h3>Choosing Perfect Lighting</h3>
+                        <p>How to layer lighting for ambiance, task, and accent purposes.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card reveal">
+                    <div class="blog-img" style="background-image: url('https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">Dec 15, 2024</span>
+                        <h3>Sustainable Interior Design</h3>
+                        <p>Eco-friendly materials and practices for a greener home.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">Got Questions?</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-container reveal">
+                <div class="faq-item">
+                    <button class="faq-question">What areas do you serve? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>We are based in Jharsuguda, Odisha, and serve the entire Odisha region. For premium projects, we also take on assignments across India.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How long does a typical project take? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>A standard 2BHK interior project takes about 45-60 days from design approval. Timelines vary based on project scope and material availability.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you provide warranties on your work? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>Yes, we offer a 5-year warranty on modular furniture and kitchen units, and a 1-year warranty on decor and lighting products.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Can I customize the furniture designs? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>Absolutely! We specialize in custom furniture. Our designers will work with you to create bespoke pieces tailored to your space.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What is the payment structure? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>We follow a milestone-based payment structure: 20% advance, 30% on design finalization, 30% during execution, and 20% on handover.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you offer free consultations? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>Yes, we offer a free 30-minute initial consultation to understand your requirements and provide a rough estimate.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How do I get started? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>Simply fill out our contact form or call us at +91 98765 43210. Our team will schedule a consultation at your convenience.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What styles do you specialize in? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>From Scandinavian and Minimalist to Luxury and Traditional Indian, our team is skilled in executing a wide variety of design styles.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you handle commercial projects? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>Yes, we have a dedicated team for commercial spaces including offices, cafes, and retail stores.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Can I see samples of materials? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer"><p>Yes, during the design planning phase, we provide a physical material board with samples of fabrics, wood, and finishes.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-heading">Let's Talk</span>
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item glass-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>Main Road, Jharsuguda, Odisha, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>hello@nestoraliving.com</p>
+                        </div>
+                    </div>
+                    <div class="map-container glass-card">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36908.47491301732!2d84.0161654!3d21.8569494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a22b78d08d6b2b3%3A0x4f7c6e8e3a0c5b2b!2sJharsuguda%2C%20Odisha!5e0!3m2!1sen!2sin!4v1644326543210!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper glass-card reveal">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <span class="error-msg" id="nameError"></span>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Email Address</label>
+                                <span class="error-msg" id="emailError"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" required>
+                                <label for="phone">Phone Number</label>
+                                <span class="error-msg" id="phoneError"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected></option>
+                                <option value="interior">Interior Design</option>
+                                <option value="furniture">Custom Furniture</option>
+                                <option value="kitchen">Modular Kitchen</option>
+                                <option value="renovation">Renovation</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="service">Service Required</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                        <p class="form-success" id="formSuccess">Thank you! We will get back to you shortly.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-card glass-card reveal">
+                <h2>Get Home Decor Inspiration Delivered Monthly</h2>
+                <p>Subscribe to our newsletter for exclusive offers, design tips, and trend updates.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="newsletter-success" id="newsletterSuccess">Subscription successful! Welcome to Nestora.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bg" style="background-image: url('https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');"></div>
+        <div class="footer-overlay"></div>
+        <div class="container footer-container">
+            <div class="footer-col footer-about">
+                <a href="#home" class="logo"><i class="fas fa-couch"></i> Nestora <span>Living</span></a>
+                <p>Transforming Houses Into Beautiful Homes. Premium interior solutions crafted for modern living in Jharsuguda, Odisha.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Interior Design</a></li>
+                    <li><a href="#products">Furniture</a></li>
+                    <li><a href="#services">Renovation</a></li>
+                    <li><a href="#contact">Consultation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> Main Road, Jharsuguda, Odisha</li>
+                    <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+                    <li><i class="fas fa-envelope"></i> hello@nestoraliving.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Nestora Living. All Rights Reserved. Crafted with ❤️ in Odisha.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img src="" id="lightboxImg" alt="Gallery Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
